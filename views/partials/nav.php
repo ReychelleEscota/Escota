@@ -17,6 +17,9 @@
                     <a class="nav-link fw-bold" href="./contact">Contact</a>
                 </li>
                 <button type="button" class="btn btn-dark ms-3" onclick="window.location.href='./gallery'">Gallery</button>
+                <li class="nav-item ms-3">
+                    <a class="nav-link fw-bold" href="./logout"> <i class=" fs-4 fa-solid fa-right-from-bracket"></i> </a>
+                </li>
             </ul>
         </div>
     </div>

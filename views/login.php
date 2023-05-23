@@ -1,7 +1,15 @@
+<?php
+session_start();
+if (isset($_SESSION['user_name']) && isset($_SESSION['id'])) {
+    header("Location: ./");
+    exit();
+}
+?>
 <?php require "views/partials/header.php"; ?>
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./resources/css/login.css">
 
 <style>
     .error {
