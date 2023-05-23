@@ -24,9 +24,11 @@ switch ($uri) {
     case $base . "contact":
         require "views/contact.php";
         break;
-        // logout
     case $base . "logout":
         require "views/script/logout.php";
+        break;
+    case $base . "send-email":
+        require "views/script/send_email.php";
         break;
     default:
         require "views/404.php";

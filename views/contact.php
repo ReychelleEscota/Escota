@@ -9,24 +9,31 @@ if (isset($_SESSION['user_name']) && isset($_SESSION['id'])) {
         <div class="row justify-content-center w-100">
             <div class="col-md-5 p-4 pb-5 border border-dark shadow border-1 rounded border-opacity-25  bg-opacity-25 bg-dark" style="margin: 7rem 0 5rem 0">
                 <h4 class="mb-3 fw-bold ">Contact me.</h4>
-                <form action="">
+                <form action="./send-email" method="post">
+                    <?php
+                    $query = parse_url($_SERVER['REQUEST_URI'], PHP_URL_QUERY);
+                    parse_str($query, $params);
+                    if (isset($params['success'])) { ?>
+                        <p class="sucess text-white"><?php echo $params['success']; ?></p>
+                    <?php } ?>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+                        <input required type="text" class="form-control" name="name" id="floatingPassword">
                         <label for="floatingPassword">Name</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input required type="email" class="form-control" name="email" id="floatingInput">
                         <label for="floatingInput">Email address</label>
                     </div>
 
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="resize:none; height: 150px"></textarea>
+                        <textarea required class="form-control" name="message" placeholder="Leave a comment here" id="floatingTextarea" style="resize:none; height: 150px"></textarea>
                         <label for="floatingTextarea">Message</label>
                     </div>
+                    <div class=" text-center mt-2">
+                        <button type="submit" class="btn btn-dark mt-3">Send</button>
+                    </div>
                 </form>
-                <div class=" text-center mt-2">
-                    <button class="btn btn-dark mt-3" onclick="window.location.href ='./contact'">Send</button>
-                </div>
+
             </div>
         </div>
 

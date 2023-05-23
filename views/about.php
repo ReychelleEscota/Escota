@@ -22,7 +22,7 @@ if (isset($_SESSION['user_name']) && isset($_SESSION['id'])) {
             <div class="col-sm-12 mt-xlg-0" style="margin-top:6rem">
                 <div class="row">
                     <div class="col-md-6 d-grid" style="place-items:center">
-                        <img class="img-fluid w-75  rounded-bottom rounded-circle" src="./resources/img/me2.jpg" alt="">
+                        <img class="img-fluid w-75  rounded-bottom rounded-circle" src="./resources/img/me.jpg" alt="">
                     </div>
                     <!-- this is the part where you put your educational background -->
                     <div class="col-md-6 mb-lg-0 mb-5 d-grid align-self-center">

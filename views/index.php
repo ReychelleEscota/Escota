@@ -15,7 +15,7 @@ if (isset($_SESSION['user_name']) && isset($_SESSION['id'])) {
                 </div>
             </div>
             <div class="col-md-6 d-grid" style="place-items:center">
-                <img class="img-fluid w-75  rounded-bottom rounded-circle" src="./resources/img/me2.jpg" alt="">
+                <img class="img-fluid w-75  rounded-bottom rounded-circle" src="./resources/img/me.jpg" alt="">
             </div>
         </div>
     </div>
