@@ -1,6 +1,7 @@
 <?php
 
 $uri = $_SERVER["REQUEST_URI"];
+$uri = parse_url($uri, PHP_URL_PATH);
 
 $base = "/escota/";
 
@@ -13,6 +14,9 @@ switch ($uri) {
         break;
     case $base . "login":
         require "views/login.php";
+        break;
+    case $base . "login.php":
+        require "views/script/login.php";
         break;
     case $base . "gallery":
         require "views/gallery.php";
