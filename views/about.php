@@ -5,12 +5,12 @@
 <style>
     .list-group-item {
         /* color: white; */
-        background-color: rgba(255, 255, 255, .1);
-
+        /* background-color: rgba(255, 255, 255, .1); */
+        background-color: transparent;
     }
 
-    .bgg {
-        background-color: #A9907E;
+    .list-group-item {
+        color: #fff;
     }
 </style>
 
@@ -18,9 +18,12 @@
     <div class="row">
         <div class="col-sm-12 mt-xlg-0" style="margin-top:6rem">
             <div class="row">
+                <div class="col-md-6 d-grid" style="place-items:center">
+                    <img class="img-fluid w-75  rounded-bottom rounded-circle" src="./resources/img/me2.jpg" alt="">
+                </div>
                 <!-- this is the part where you put your educational background -->
-                <div class="col-lg-6 mb-lg-0 mb-5">
-                    <h5 class=" text-center ">Educational Background</h5>
+                <div class="col-md-6 mb-lg-0 mb-5 d-grid align-self-center">
+                    <h5 class=" text-center text-white fw-bold">Educational Background</h5>
                     <ul class="list-group list-group-flush shadow rounded">
                         <li class="list-group-item"><span class=" fw-bold">Elementary:</span> I attended Tagaytay Elementary School in Tagaytay, Gubat, Sorsogon from 2008 to 2014.</li>
                         <li class="list-group-item"><span class="fw-bold">Secondary (High School):</span> : I completed my high school education at Gubat National High School in Bonifacio St. Brgy, Paradijon, Gubat, Sorsogon from 2014 to 2018.</li>
@@ -28,10 +31,12 @@
                         <li class="list-group-item"><span class="fw-bold">Tertiary:</span> Currently, I am pursuing my Bachelor's degree at Bicol University in Legazpi City, Albay, majoring in Information Technology. I am expected to graduate in 2025.</li>
                     </ul>
                 </div>
+            </div>
 
+            <div class="row mt-5">
                 <!-- this is the part where you put your skills -->
-                <div class="col-lg-6">
-                    <h5 class=" text-center ">Skills</h5>
+                <div class="col-lg-12">
+                    <h5 class=" text-center text-white fw-bold">Skills</h5>
                     <ul class="list-group list-group-flush shadow rounded">
                         <li class="list-group-item"><span class=" fw-bold">Data Analysis:</span> I possess strong skills in analyzing data, deriving insights, and making informed decisions based on data-driven findings.</li>
                         <li class="list-group-item"><span class=" fw-bold">Business Acumen:</span> I have a good understanding of business principles and practices, allowing me to contribute effectively to business-related tasks and projects.</li>
@@ -41,7 +46,7 @@
                     </ul>
                 </div>
             </div>
-            <p class="mt-3">With my educational background and skills, I am motivated to contribute to meaningful projects and make a positive impact in my field of study. I am passionate about continuous learning and exploring new opportunities to enhance my knowledge and expertise.</p>
+            <p class="m-5 text-white">With my educational background and skills, I am motivated to contribute to meaningful projects and make a positive impact in my field of study. I am passionate about continuous learning and exploring new opportunities to enhance my knowledge and expertise.</p>
         </div>
 
     </div>
