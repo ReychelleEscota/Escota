@@ -11,11 +11,11 @@ switch ($uri) {
     case $base . "about":
         require "views/about.php";
         break;
-    case $base . "contact":
-        require "views/contact.php";
-        break;
     case $base . "gallery":
         require "views/gallery.php";
+        break;
+    case $base . "contact":
+        require "views/contact.php";
         break;
     default:
         require "views/404.php";

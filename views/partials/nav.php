@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-scroll fixed-top shadow-0 border-bottom border-dark">
+<nav class="navbar navbar-expand-lg navbar-scroll fixed-top shadow-0 border-bottom border-dark" style="background: #F3DEBA">
     <div class="container">
         <a class="navbar-brand fw-bold fs-3" href="./">Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@
                 <li class="nav-item">
                     <a class="nav-link fw-bold" href="./contact">Contact</a>
                 </li>
-                <button type="button" class="btn btn-dark ms-3">Gallery</button>
+                <button type="button" class="btn btn-dark ms-3" onclick="window.location.href='./gallery'">Gallery</button>
             </ul>
         </div>
     </div>
