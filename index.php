@@ -18,6 +18,9 @@ switch ($uri) {
     case $base . "login.php":
         require "views/script/login.php";
         break;
+    case $base . "signup.php":
+        require "views/script/signup.php";
+        break;
     case $base . "gallery":
         require "views/gallery.php";
         break;
