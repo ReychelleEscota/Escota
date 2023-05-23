@@ -14,12 +14,9 @@
                     <a class="nav-link fw-bold" href="./about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-bold" href="./works">Works</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link fw-bold" href="./contact">Contact</a>
                 </li>
-                <button type="button" class="btn btn-dark ms-3">Get Started</button>
+                <button type="button" class="btn btn-dark ms-3">Gallery</button>
             </ul>
         </div>
     </div>
