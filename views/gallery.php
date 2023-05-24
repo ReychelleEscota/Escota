@@ -7,7 +7,7 @@ if (isset($_SESSION['user_name']) && isset($_SESSION['id'])) {
     <?php require "views/partials/nav.php"; ?>
     <div class="container d-grid" style="min-height: 100vh; place-items:center">
         <!-- Gallery -->
-        <div class="row mt-md-3" style="margin-top:8rem">
+        <div class="row mt-xxl-5 mb-5" style="margin-top:8rem">
             <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                 <img src="resources/img/photo_2023-05-24_09-13-39.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
 
